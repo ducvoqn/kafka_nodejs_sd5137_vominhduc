@@ -1,0 +1,564 @@
+[2022-09-20 18:03:04,920] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions Set(animal-1, animal-4) (kafka.server.ReplicaFetcherManager)
+[2022-09-20 18:03:04,920] INFO [ReplicaFetcherManager on broker 3] Removed fetcher for partitions Set(animal-2) (kafka.server.ReplicaFetcherManager)
+[2022-09-20 18:03:04,984] INFO [LogLoader partition=animal-1, dir=/tmp/kafka-logs-2] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-09-20 18:03:04,984] INFO [LogLoader partition=animal-2, dir=/tmp/kafka-logs-3] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-09-20 18:03:04,999] INFO Created log for partition animal-2 in /tmp/kafka-logs-3/animal-2 with properties {} (kafka.log.LogManager)
+[2022-09-20 18:03:04,999] INFO Created log for partition animal-1 in /tmp/kafka-logs-2/animal-1 with properties {} (kafka.log.LogManager)
+[2022-09-20 18:03:05,019] INFO [Partition animal-2 broker=3] No checkpointed highwatermark is found for partition animal-2 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,019] INFO [Partition animal-1 broker=2] No checkpointed highwatermark is found for partition animal-1 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,036] INFO [Partition animal-2 broker=3] Log loaded for partition animal-2 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,036] INFO [Partition animal-1 broker=2] Log loaded for partition animal-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,126] INFO [LogLoader partition=animal-1, dir=/tmp/kafka-logs-3] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-09-20 18:03:05,126] INFO Created log for partition animal-1 in /tmp/kafka-logs-3/animal-1 with properties {} (kafka.log.LogManager)
+[2022-09-20 18:03:05,145] INFO [Partition animal-1 broker=3] No checkpointed highwatermark is found for partition animal-1 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,145] INFO [Partition animal-1 broker=3] Log loaded for partition animal-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,185] INFO [LogLoader partition=animal-4, dir=/tmp/kafka-logs-2] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-09-20 18:03:05,187] INFO Created log for partition animal-4 in /tmp/kafka-logs-2/animal-4 with properties {} (kafka.log.LogManager)
+[2022-09-20 18:03:05,187] INFO [Partition animal-4 broker=2] No checkpointed highwatermark is found for partition animal-4 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,187] INFO [Partition animal-4 broker=2] Log loaded for partition animal-4 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,188] INFO [LogLoader partition=animal-4, dir=/tmp/kafka-logs-3] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-09-20 18:03:05,207] INFO Created log for partition animal-4 in /tmp/kafka-logs-3/animal-4 with properties {} (kafka.log.LogManager)
+[2022-09-20 18:03:05,208] INFO [Partition animal-4 broker=3] No checkpointed highwatermark is found for partition animal-4 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,208] INFO [Partition animal-4 broker=3] Log loaded for partition animal-4 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,269] INFO [LogLoader partition=animal-3, dir=/tmp/kafka-logs-3] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-09-20 18:03:05,269] INFO [LogLoader partition=animal-2, dir=/tmp/kafka-logs-2] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-09-20 18:03:05,271] INFO Created log for partition animal-3 in /tmp/kafka-logs-3/animal-3 with properties {} (kafka.log.LogManager)
+[2022-09-20 18:03:05,271] INFO Created log for partition animal-2 in /tmp/kafka-logs-2/animal-2 with properties {} (kafka.log.LogManager)
+[2022-09-20 18:03:05,271] INFO [Partition animal-3 broker=3] No checkpointed highwatermark is found for partition animal-3 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,271] INFO [Partition animal-2 broker=2] No checkpointed highwatermark is found for partition animal-2 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,271] INFO [Partition animal-3 broker=3] Log loaded for partition animal-3 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,291] INFO [Partition animal-2 broker=2] Log loaded for partition animal-2 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,335] INFO [LogLoader partition=animal-3, dir=/tmp/kafka-logs-2] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-09-20 18:03:05,335] INFO [LogLoader partition=animal-0, dir=/tmp/kafka-logs-3] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-09-20 18:03:05,336] INFO Created log for partition animal-3 in /tmp/kafka-logs-2/animal-3 with properties {} (kafka.log.LogManager)
+[2022-09-20 18:03:05,336] INFO Created log for partition animal-0 in /tmp/kafka-logs-3/animal-0 with properties {} (kafka.log.LogManager)
+[2022-09-20 18:03:05,336] INFO [Partition animal-0 broker=3] No checkpointed highwatermark is found for partition animal-0 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,336] INFO [Partition animal-3 broker=2] No checkpointed highwatermark is found for partition animal-3 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,336] INFO [Partition animal-3 broker=2] Log loaded for partition animal-3 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,336] INFO [Partition animal-0 broker=3] Log loaded for partition animal-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,355] INFO [ReplicaFetcherManager on broker 3] Removed fetcher for partitions HashSet(animal-0, animal-1, animal-4, animal-3) (kafka.server.ReplicaFetcherManager)
+[2022-09-20 18:03:05,376] INFO [LogLoader partition=animal-0, dir=/tmp/kafka-logs-2] Loading producer state till offset 0 with message format version 2 (kafka.log.UnifiedLog$)
+[2022-09-20 18:03:05,377] INFO Created log for partition animal-0 in /tmp/kafka-logs-2/animal-0 with properties {} (kafka.log.LogManager)
+[2022-09-20 18:03:05,377] INFO [Partition animal-0 broker=2] No checkpointed highwatermark is found for partition animal-0 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,377] INFO [Partition animal-0 broker=2] Log loaded for partition animal-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2022-09-20 18:03:05,378] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions HashSet(animal-0, animal-2, animal-3) (kafka.server.ReplicaFetcherManager)
+[2022-09-20 18:03:05,391] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Starting (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,395] INFO [ReplicaFetcherManager on broker 3] Added fetcher to broker 2 for partitions Map(animal-4 -> InitialFetchState(Some(bs1dbs3lT1OkjYLH8gJeXA),BrokerEndPoint(id=2, host=localhost:9094),0,0), animal-1 -> InitialFetchState(Some(bs1dbs3lT1OkjYLH8gJeXA),BrokerEndPoint(id=2, host=localhost:9094),0,0)) (kafka.server.ReplicaFetcherManager)
+[2022-09-20 18:03:05,399] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition animal-1 with TruncationState(offset=0, completed=true) due to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,400] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Starting (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,400] INFO [ReplicaFetcherManager on broker 3] Added fetcher to broker 1 for partitions Map(animal-3 -> InitialFetchState(Some(bs1dbs3lT1OkjYLH8gJeXA),BrokerEndPoint(id=1, host=localhost:9093),0,0), animal-0 -> InitialFetchState(Some(bs1dbs3lT1OkjYLH8gJeXA),BrokerEndPoint(id=1, host=localhost:9093),0,0)) (kafka.server.ReplicaFetcherManager)
+[2022-09-20 18:03:05,400] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition animal-0 with TruncationState(offset=0, completed=true) due to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,401] INFO [UnifiedLog partition=animal-0, dir=/tmp/kafka-logs-3] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.UnifiedLog)
+[2022-09-20 18:03:05,401] INFO [UnifiedLog partition=animal-1, dir=/tmp/kafka-logs-3] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.UnifiedLog)
+[2022-09-20 18:03:05,427] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition animal-4 with TruncationState(offset=0, completed=true) due to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,427] INFO [UnifiedLog partition=animal-4, dir=/tmp/kafka-logs-3] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.UnifiedLog)
+[2022-09-20 18:03:05,429] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition animal-3 with TruncationState(offset=0, completed=true) due to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,429] INFO [UnifiedLog partition=animal-3, dir=/tmp/kafka-logs-3] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.UnifiedLog)
+[2022-09-20 18:03:05,461] INFO [ReplicaFetcher replicaId=2, leaderId=3, fetcherId=0] Starting (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,471] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 3 for partitions Map(animal-2 -> InitialFetchState(Some(bs1dbs3lT1OkjYLH8gJeXA),BrokerEndPoint(id=3, host=localhost:9095),0,0)) (kafka.server.ReplicaFetcherManager)
+[2022-09-20 18:03:05,478] INFO [ReplicaFetcher replicaId=2, leaderId=3, fetcherId=0] Truncating partition animal-2 with TruncationState(offset=0, completed=true) due to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,480] INFO [UnifiedLog partition=animal-2, dir=/tmp/kafka-logs-2] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.UnifiedLog)
+[2022-09-20 18:03:05,481] WARN [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Received UNKNOWN_TOPIC_ID from the leader for partition animal-0. This error may be returned transiently when the partition is being created or deleted, but it is not expected to persist. (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,481] WARN [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Received UNKNOWN_TOPIC_ID from the leader for partition animal-3. This error may be returned transiently when the partition is being created or deleted, but it is not expected to persist. (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,483] INFO [ReplicaFetcherManager on broker 2] Added fetcher to broker 1 for partitions Map(animal-3 -> InitialFetchState(Some(bs1dbs3lT1OkjYLH8gJeXA),BrokerEndPoint(id=1, host=localhost:9093),0,0), animal-0 -> InitialFetchState(Some(bs1dbs3lT1OkjYLH8gJeXA),BrokerEndPoint(id=1, host=localhost:9093),0,0)) (kafka.server.ReplicaFetcherManager)
+[2022-09-20 18:03:05,483] INFO [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Starting (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,483] INFO [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Truncating partition animal-0 with TruncationState(offset=0, completed=true) due to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,485] INFO [UnifiedLog partition=animal-0, dir=/tmp/kafka-logs-2] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.UnifiedLog)
+[2022-09-20 18:03:05,485] INFO [ReplicaFetcher replicaId=2, leaderId=1, fetcherId=0] Truncating partition animal-3 with TruncationState(offset=0, completed=true) due to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,485] INFO [UnifiedLog partition=animal-3, dir=/tmp/kafka-logs-2] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.UnifiedLog)
+[2022-09-20 18:03:05,511] WARN [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Received UNKNOWN_TOPIC_ID from the leader for partition animal-1. This error may be returned transiently when the partition is being created or deleted, but it is not expected to persist. (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:03:05,519] WARN [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Received UNKNOWN_TOPIC_ID from the leader for partition animal-4. This error may be returned transiently when the partition is being created or deleted, but it is not expected to persist. (kafka.server.ReplicaFetcherThread)
+[2022-09-20 18:11:50,703] INFO Processing notification(s) to /config/changes (kafka.common.ZkNodeChangeNotificationListener)
+[2022-09-20 18:11:50,704] INFO Processing notification(s) to /config/changes (kafka.common.ZkNodeChangeNotificationListener)
+[2022-09-20 18:11:50,709] INFO Processing override for entityPath: topics/animal with config: HashMap(min.insync.replicas -> 4) (kafka.server.ZkConfigManager)
+[2022-09-20 18:11:50,710] INFO Processing override for entityPath: topics/animal with config: HashMap(min.insync.replicas -> 4) (kafka.server.ZkConfigManager)
+[2022-09-20 18:11:50,737] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:11:51,043] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:11:52,082] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:11:52,671] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:11:52,718] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:11:53,578] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:11:53,740] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:11:53,857] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:11:54,741] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:11:54,796] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:11:55,045] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:11:55,745] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:11:56,082] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:11:56,097] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:11:56,806] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:11:57,101] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:11:57,185] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:11:57,908] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:11:57,995] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:11:58,443] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:11:59,028] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:11:59,493] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:11:59,598] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:00,039] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:00,269] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:00,285] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:00,804] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:00,805] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:00,998] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:01,641] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:01,747] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:01,971] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:02,224] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:02,728] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:02,749] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:03,037] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:03,455] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:03,552] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:04,092] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:04,594] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:04,691] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:05,106] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:05,375] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:05,743] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:06,085] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:06,264] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:06,345] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:06,615] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:06,722] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:06,750] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:07,028] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:07,519] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:07,687] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:08,561] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:08,746] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:08,750] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:09,084] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:09,171] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:09,234] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:09,730] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:09,751] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:09,768] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:10,175] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:10,584] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:10,634] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:10,896] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:11,024] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:11,555] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:12,111] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:12,755] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:12,811] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:13,162] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:13,471] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:13,525] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:13,757] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:14,039] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:14,076] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:14,624] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:14,642] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:14,722] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:15,685] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:15,757] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:15,805] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:16,093] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:16,540] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:16,757] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:17,337] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:17,506] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:17,577] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:17,818] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:18,056] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:18,470] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:18,940] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:19,096] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:19,113] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:19,695] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:19,762] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:19,798] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:20,762] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:20,812] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:21,009] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:21,293] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:21,535] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:21,763] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:22,250] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:22,630] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:22,764] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:23,148] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:23,179] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:23,447] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:23,827] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:23,908] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:23,947] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:24,682] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:24,767] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:25,109] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:25,767] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:25,771] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:25,984] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:26,440] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:26,475] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:26,690] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:27,124] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:27,373] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:27,431] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:27,896] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:28,033] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:28,043] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:28,770] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:28,837] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:28,860] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:29,663] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:29,772] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:30,020] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:30,697] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:30,774] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:30,802] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:31,115] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:31,220] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:31,330] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:32,115] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:32,127] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:32,655] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:32,924] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:32,926] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:33,080] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:33,776] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:33,805] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:34,126] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:34,848] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:34,876] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:34,971] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:35,563] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:35,777] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:36,120] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:36,552] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:36,770] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:36,778] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:37,124] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:37,627] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:37,696] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:37,891] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:37,925] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:38,036] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:38,780] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:39,034] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:39,303] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:39,528] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:39,782] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:39,830] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:40,270] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:40,782] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:40,820] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:41,506] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:41,677] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:41,761] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:42,114] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:42,292] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:42,332] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:42,784] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:43,080] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:43,247] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:43,784] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:43,949] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:44,042] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:44,635] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:44,763] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:44,784] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:45,281] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:45,408] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:45,590] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:45,785] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:46,133] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:46,716] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:46,934] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:47,029] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:47,118] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:47,785] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:47,875] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:48,040] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:48,694] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:48,785] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:49,054] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:49,502] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:49,672] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:49,785] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:50,202] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:50,604] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:50,786] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:51,159] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:51,179] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:51,717] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:51,806] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:52,036] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:52,118] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:52,787] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:52,881] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:53,096] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:53,595] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:53,661] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:53,741] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:54,490] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:54,632] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:54,787] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:55,111] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:55,145] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:55,725] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:56,093] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:56,285] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:56,760] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:57,072] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:57,086] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:57,129] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:58,081] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:58,103] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:58,138] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:58,628] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:58,789] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:58,805] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:12:59,285] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:12:59,359] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:12:59,732] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2
+[2022-09-20 18:13:00,142] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-1 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 3, 1) is insufficient to satisfy the min.isr requirement of 4 for partition animal-1
+[2022-09-20 18:13:00,791] ERROR [ReplicaManager broker=2] Error processing append operation on partition animal-4 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(2, 1, 3) is insufficient to satisfy the min.isr requirement of 4 for partition animal-4
+[2022-09-20 18:13:00,934] ERROR [ReplicaManager broker=3] Error processing append operation on partition animal-2 (kafka.server.ReplicaManager)
+org.apache.kafka.common.errors.NotEnoughReplicasException: The size of the current ISR Set(3, 1, 2) is insufficient to satisfy the min.isr requirement of 4 for partition animal-2

@@ -1,0 +1,5 @@
+[2022-09-21 05:11:59,614] INFO [Broker id=3] Handling LeaderAndIsr request correlationId 7 from controller 1 for 1 partitions (state.change.logger)
+[2022-09-21 05:11:59,656] INFO [Broker id=3] Stopped fetchers as part of LeaderAndIsr request correlationId 7 from controller 1 epoch 5 as part of the become-leader transition for 1 partitions (state.change.logger)
+[2022-09-21 05:11:59,665] INFO [Broker id=3] Leader animal-2 starts at leader epoch 3 from offset 70 with high watermark 70 ISR [1,2,3] addingReplicas [] removingReplicas []. Previous leader epoch was 2. (state.change.logger)
+[2022-09-21 05:11:59,717] INFO [Broker id=3] Finished LeaderAndIsr request in 104ms correlationId 7 from controller 1 for 1 partitions (state.change.logger)
+[2022-09-21 05:11:59,816] INFO [Broker id=3] Add 1 partitions and deleted 0 partitions from metadata cache in response to UpdateMetadata request sent by controller 1 epoch 5 with correlation id 8 (state.change.logger)

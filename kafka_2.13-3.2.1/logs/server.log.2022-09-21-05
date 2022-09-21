@@ -1,0 +1,1 @@
+[2022-09-21 09:39:16,905] INFO [BrokerToControllerChannelManager broker=1 name=alterPartition] Node 1 disconnected. (org.apache.kafka.clients.NetworkClient)

@@ -1,0 +1,5 @@
+[2022-09-21 05:11:59,609] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions HashSet(animal-2) (kafka.server.ReplicaFetcherManager)
+[2022-09-21 05:11:59,641] INFO [ReplicaFetcher replicaId=1, leaderId=3, fetcherId=0] Starting (kafka.server.ReplicaFetcherThread)
+[2022-09-21 05:11:59,642] INFO [ReplicaFetcherManager on broker 1] Added fetcher to broker 3 for partitions Map(animal-2 -> InitialFetchState(Some(bs1dbs3lT1OkjYLH8gJeXA),BrokerEndPoint(id=3, host=localhost:9095),3,70)) (kafka.server.ReplicaFetcherManager)
+[2022-09-21 05:11:59,790] INFO [ReplicaFetcher replicaId=1, leaderId=3, fetcherId=0] Truncating partition animal-2 with TruncationState(offset=70, completed=true) due to leader epoch and offset EpochEndOffset(errorCode=0, partition=2, leaderEpoch=0, endOffset=70) (kafka.server.ReplicaFetcherThread)
+[2022-09-21 05:11:59,791] INFO [UnifiedLog partition=animal-2, dir=/tmp/kafka-logs-1] Truncating to 70 has no effect as the largest offset in the log is 69 (kafka.log.UnifiedLog)
