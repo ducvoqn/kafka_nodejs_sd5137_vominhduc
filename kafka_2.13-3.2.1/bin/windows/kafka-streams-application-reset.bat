@@ -16,7 +16,7 @@ rem limitations under the License.
 
 SetLocal
 IF ["%KAFKA_HEAP_OPTS%"] EQU [""] (
-        set KAFKA_HEAP_OPTS=-Xmx512M
+        set KAFKA_HEAP_OPTS=-Xmx12G
 )
 
 "%~dp0kafka-run-class.bat" kafka.tools.StreamsResetter %*

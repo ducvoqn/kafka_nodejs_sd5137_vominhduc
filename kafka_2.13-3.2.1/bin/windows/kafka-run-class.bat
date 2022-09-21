@@ -163,7 +163,7 @@ IF ["%JAVA_HOME%"] EQU [""] (
 
 rem Memory options
 IF ["%KAFKA_HEAP_OPTS%"] EQU [""] (
-	set KAFKA_HEAP_OPTS=-Xmx256M
+	set KAFKA_HEAP_OPTS=-Xmx12G
 )
 
 rem JVM performance options

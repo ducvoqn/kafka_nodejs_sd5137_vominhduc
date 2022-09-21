@@ -28,10 +28,10 @@ IF ["%KAFKA_HEAP_OPTS%"] EQU [""] (
     wmic os get osarchitecture | find /i "32-bit" >nul 2>&1
     IF NOT ERRORLEVEL 1 (
         rem 32-bit OS
-        set KAFKA_HEAP_OPTS=-Xmx512M -Xms512M
+        set KAFKA_HEAP_OPTS=-Xmx12G -Xms10G
     ) ELSE (
         rem 64-bit OS
-        set KAFKA_HEAP_OPTS=-Xmx1G -Xms1G
+        set KAFKA_HEAP_OPTS=-Xmx12G -Xms10G
     )
 )
 "%~dp0kafka-run-class.bat" kafka.Kafka %*

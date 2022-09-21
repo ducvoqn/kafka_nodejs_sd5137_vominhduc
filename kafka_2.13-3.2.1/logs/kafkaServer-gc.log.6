@@ -414,3 +414,24 @@
 [2022-09-21T15:34:11.497+0700][gc,metaspace] GC(24) Metaspace: 42528K(43136K)->42528K(43136K) NonClass: 37425K(37760K)->37425K(37760K) Class: 5102K(5376K)->5102K(5376K)
 [2022-09-21T15:34:11.497+0700][gc          ] GC(24) Pause Young (Normal) (G1 Evacuation Pause) 758M->147M(1024M) 39.842ms
 [2022-09-21T15:34:11.497+0700][gc,cpu      ] GC(24) User=0.03s Sys=0.08s Real=0.04s
+[2022-09-21T18:02:15.338+0700][gc,start    ] GC(25) Pause Young (Normal) (G1 Evacuation Pause)
+[2022-09-21T18:02:15.339+0700][gc,task     ] GC(25) Using 10 workers of 10 for evacuation
+[2022-09-21T18:02:15.399+0700][gc,mmu      ] GC(25) MMU target violated: 21.0ms (20.0ms/21.0ms)
+[2022-09-21T18:02:15.399+0700][gc,phases   ] GC(25)   Pre Evacuate Collection Set: 2.1ms
+[2022-09-21T18:02:15.399+0700][gc,phases   ] GC(25)   Merge Heap Roots: 1.5ms
+[2022-09-21T18:02:15.399+0700][gc,phases   ] GC(25)   Evacuate Collection Set: 50.8ms
+[2022-09-21T18:02:15.399+0700][gc,phases   ] GC(25)   Post Evacuate Collection Set: 5.4ms
+[2022-09-21T18:02:15.399+0700][gc,phases   ] GC(25)   Other: 1.7ms
+[2022-09-21T18:02:15.399+0700][gc,heap     ] GC(25) Eden regions: 611->0(47)
+[2022-09-21T18:02:15.399+0700][gc,heap     ] GC(25) Survivor regions: 3->4(77)
+[2022-09-21T18:02:15.399+0700][gc,heap     ] GC(25) Old regions: 16->16
+[2022-09-21T18:02:15.399+0700][gc,heap     ] GC(25) Archive regions: 2->2
+[2022-09-21T18:02:15.399+0700][gc,heap     ] GC(25) Humongous regions: 129->129
+[2022-09-21T18:02:15.399+0700][gc,metaspace] GC(25) Metaspace: 43240K(43840K)->43240K(43840K) NonClass: 37998K(38336K)->37998K(38336K) Class: 5242K(5504K)->5242K(5504K)
+[2022-09-21T18:02:15.399+0700][gc          ] GC(25) Pause Young (Normal) (G1 Evacuation Pause) 758M->148M(1024M) 61.175ms
+[2022-09-21T18:02:15.399+0700][gc,cpu      ] GC(25) User=0.04s Sys=0.22s Real=0.06s
+[2022-09-21T18:02:15.771+0700][gc,heap,exit] Heap
+[2022-09-21T18:02:15.771+0700][gc,heap,exit]  garbage-first heap   total 1048576K, used 155999K [0x00000007c0000000, 0x0000000800000000)
+[2022-09-21T18:02:15.771+0700][gc,heap,exit]   region size 1024K, 8 young (8192K), 4 survivors (4096K)
+[2022-09-21T18:02:15.771+0700][gc,heap,exit]  Metaspace       used 43325K, committed 43904K, reserved 1089536K
+[2022-09-21T18:02:15.771+0700][gc,heap,exit]   class space    used 5263K, committed 5504K, reserved 1048576K
